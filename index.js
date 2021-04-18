@@ -71,9 +71,7 @@ const questions = () => {
         }
     ])
    
-} 
-questions()
-    .then = (projectData) => {
+    .then = ((projectData) => {
         console.log(projectData.title);
         console.log(projectData.description);
         console.log(projectData.usage);
@@ -82,7 +80,9 @@ questions()
         console.log(projectData.tests);
         console.log(projectData.email);
         console.log(projectData.username);
-}  
+})  
+} 
+
    
 
 // TODO: Create a function to write README file
