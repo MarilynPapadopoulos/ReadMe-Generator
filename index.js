@@ -95,8 +95,10 @@ const writeFile = projectData => {
         }
         return(projectData);
     })
+    writeFile(projectData).then;
 
 }
+
 
 // TODO: Create a function to initialize app
 //function init() {}

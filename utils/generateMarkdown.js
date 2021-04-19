@@ -1,6 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  ${projectdata.filter(license) => 
+    return this.license;
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -12,7 +16,33 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${projectdata.title}
+         
+          ## Description
+          ${projectData.description}
+          ## Table of Contents
+          * Installation [Instalation](## Instalation)
+          * Usage
+          * Licensse
+          * Contributing
+          * Tests
+          * Questions
+          
+          ## Instalation
+             ${projectData.installation}
+          ## Usage
+             ${projectData.usage}
+          ## License
+             ${projectData.license}
+          ## Contributing
+             ${projectData.contributing}
+          ## Tests
+             ${projectData.tests}
+          ##Questions   
+          ## ${projectData.username}
+          ## ${projectData.email}
+          <a href=https://github.com/${projectData.username}/${projectData.title}.git>
+         
 
 `;
 }
