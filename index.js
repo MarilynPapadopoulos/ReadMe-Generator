@@ -1,7 +1,9 @@
 // TODO: Include packages needed for this application
 
 const inquirer = require("inquirer");
-const writeFile = require("./utils/generateMarkdown.js");
+const fs = require('fs');
+//const { fstat } = require("node:fs");
+//const writeToFile = require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -31,7 +33,7 @@ const questions = () => {
             message: "What are the steps required to install your project?"
         },
         {
-            type: "checkbox",
+            type: "list",
             name: "license",
             message: "Choose a license",
             choices: [
@@ -71,24 +73,30 @@ const questions = () => {
         }
     ])
    
-    .then = ((projectData) => {
-        console.log(projectData.title);
-        console.log(projectData.description);
-        console.log(projectData.usage);
-        console.log(projectData.license);
-        console.log(projectData.contributing);
-        console.log(projectData.tests);
-        console.log(projectData.email);
-        console.log(projectData.username);
+    .then((projectData) => {
+        console.log(projectData);
+        // console.log(projectData.description);
+        // console.log(projectData.usage);
+        // console.log(projectData.license);
+        // console.log(projectData.contributing);
+        // console.log(projectData.tests);
+        // console.log(projectData.email);
+        // console.log(projectData.username);
 })  
 } 
 
-   
+ questions();  
 
 // TODO: Create a function to write README file
-//function writeToFile(fileName, data) {
+const writeFile = projectData => {
+    fs.writeFile('./README.md',projectData, err => {
+        if(err) {
+            console.log(err);
+        }
+        return(projectData);
+    })
 
-//}
+}
 
 // TODO: Create a function to initialize app
 //function init() {}
