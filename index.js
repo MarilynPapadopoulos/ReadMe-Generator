@@ -2,8 +2,9 @@
 
 const inquirer = require("inquirer");
 const fs = require('fs');
+
 //const { fstat } = require("node:fs");
-//const writeToFile = require("./utils/generateMarkdown.js");
+const generateMarkdown= require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -39,7 +40,7 @@ const questions = () => {
             choices: [
                 "Apache",
                 "MIT",
-                "GNU GPL"
+                "GNU"
             ],
         },
         {
@@ -82,22 +83,24 @@ const questions = () => {
         // console.log(projectData.tests);
         // console.log(projectData.email);
         // console.log(projectData.username);
+        generateMarkdown(projectData);
 })  
 } 
 
  questions();  
 
 // TODO: Create a function to write README file
-const writeFile = projectData => {
-    fs.writeFile('./README.md',projectData, err => {
-        if(err) {
-            console.log(err);
-        }
-        return(projectData);
-    })
-    writeFile(projectData).then;
+// const writeFile = projectData => {
+//     fs.writeFile('./README.md',projectData, err => {
+//         if(err) {
+//             console.log(err);
+//         }
+//         return(projectData);
+//     })
+//     writeFile(projectData).then;
 
-}
+// }
+
 
 
 // TODO: Create a function to initialize app

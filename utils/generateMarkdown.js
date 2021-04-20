@@ -1,38 +1,67 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  ${projectdata.filter(license) => 
-    return this.license;
+  if (license == Apache) {
+    console.log([![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)])
   }
-}
+  else if (license == MIT) {
+    return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]"
+  }
+  else if (license === GNU) {
+    return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]"
+  }
+ 
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license == Apache) {
+    return  "https://img.shields.io/badge/License-${license}%202.0-blue.svg"
+  }
+  else if (license == MIT) {
+    return "https://opensource.org/licenses/MIT"
+  }
+  else if (license == GNU) {
+    return "https://www.gnu.org/licenses/gpl-3.0"
+  }
+ 
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (!license) {
+    return ""
+  }
+  else {
+
+  }
+}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${projectdata.title}
+function generateMarkdown(projectData) {
+
+  console.log("generatemarkdown", projectData);
+  return `# ${projectData.title} ${renderLicenseBadge(license)}
          
           ## Description
           ${projectData.description}
           ## Table of Contents
-          * Installation [Instalation](## Instalation)
-          * Usage
-          * Licensse
-          * Contributing
-          * Tests
-          * Questions
+          * [Installation](#installation)
+          * [Usage] (#usage)
+          * [License] (#license)
+          * [Contributing] (#contributing)
+          * [Tests] (#tests)
+          * [Questions] (#questions)
           
-          ## Instalation
+          ## Installation
              ${projectData.installation}
           ## Usage
              ${projectData.usage}
           ## License
+          ${renderLicenseBadge(projectData.license)}
+          ${renderLicenseLink(project.Data.license)}
              ${projectData.license}
           ## Contributing
              ${projectData.contributing}
