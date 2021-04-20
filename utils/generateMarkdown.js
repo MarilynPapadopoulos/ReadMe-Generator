@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license == 'Apache') {
-    console.log(["Apache"]("[[License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]"));
+    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]"
   }
   else if (license == 'MIT') {
     return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]"
@@ -17,7 +17,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license == 'Apache') {
-    return  ["Apache"]("https://opensource.org/licenses/Apache-2.0")
+   console.log("[Apache](https://opensource.org/licenses/Apache-2.0");
   }
   else if (license == 'MIT') {
     return "[https://opensource.org/licenses/MIT]"
@@ -43,7 +43,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(projectData) {
 
   console.log(" hello from generatemarkdown", projectData);
-  return `# ${projectData.title} '     ' ${renderLicenseBadge(projectData.license)} 
+  return `# ${projectData.title} '    ${renderLicenseBadge(projectData.license)} 
          
           ## Description
           ${projectData.description}
@@ -72,7 +72,6 @@ function generateMarkdown(projectData) {
           ## ${projectData.email}
           <a href=https://github.com/${projectData.username}/${projectData.title}.git>
          
-
 `;
 }
 
