@@ -2,6 +2,7 @@
 
 const inquirer = require("inquirer");
 const fs = require('fs');
+const path = require("path");
 
 //const { fstat } = require("node:fs");
 const generateMarkdown= require("./utils/generateMarkdown.js");
@@ -90,16 +91,16 @@ const questions = () => {
  questions();  
 
 // TODO: Create a function to write README file
-// const writeFile = projectData => {
-//     fs.writeFile('./README.md',projectData, err => {
-//         if(err) {
-//             console.log(err);
-//         }
-//         return(projectData);
-//     })
-//     writeFile(projectData).then;
+const writeFile = projectData => {
+    fs.writeFile('./README.md',generateMarkdown(projectData), err => {
+        if(err) {
+            console.log(err);
+        }
+        return(projectData);
+    })
+    writeFile(projectData).then;
 
-// }
+}
 
 
 
