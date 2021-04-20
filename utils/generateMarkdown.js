@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license == 'Apache') {
-    console.log("[[License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]");
+    console.log(["Apache"]("[[License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]"));
   }
   else if (license == 'MIT') {
     return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]"
@@ -17,7 +17,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license == 'Apache') {
-    return  "[https://img.shields.io/badge/License-${license}%202.0-blue.svg](https://img.shields.io/badge/License-${license}%202.0-blue.svg)"
+    return  ["Apache"]("https://opensource.org/licenses/Apache-2.0")
   }
   else if (license == 'MIT') {
     return "[https://opensource.org/licenses/MIT]"
@@ -42,8 +42,8 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(projectData) {
 
-  console.log("generatemarkdown", projectData);
-  return `# ${projectData.title} ${renderLicenseBadge(projectData.license)}
+  console.log(" hello from generatemarkdown", projectData);
+  return `# ${projectData.title} '     ' ${renderLicenseBadge(projectData.license)} 
          
           ## Description
           ${projectData.description}
@@ -67,7 +67,7 @@ function generateMarkdown(projectData) {
              ${projectData.contributing}
           ## Tests
              ${projectData.tests}
-          ##Questions   
+          ## Questions   
           ## ${projectData.username}
           ## ${projectData.email}
           <a href=https://github.com/${projectData.username}/${projectData.title}.git>

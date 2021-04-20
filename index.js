@@ -85,6 +85,7 @@ const questions = () => {
         // console.log(projectData.email);
         // console.log(projectData.username);
         generateMarkdown(projectData);
+        writeFile(projectData);
 })  
 } 
 
@@ -92,13 +93,14 @@ const questions = () => {
 
 // TODO: Create a function to write README file
 const writeFile = projectData => {
-    fs.writeFile('./README.md',generateMarkdown(projectData), err => {
+    console.log("hello from writeFile", projectData);
+    fs.writeFile('./dist/README.md',generateMarkdown(projectData), err => {
         if(err) {
             console.log(err);
         }
         return(projectData);
     })
-    writeFile(projectData).then;
+   
 
 }
 
