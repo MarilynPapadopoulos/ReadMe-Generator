@@ -41,7 +41,8 @@ const questions = () => {
             choices: [
                 "Apache",
                 "MIT",
-                "GNU"
+                "GNU",
+                "None"
             ],
         },
         {
