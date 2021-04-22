@@ -31,8 +31,13 @@ const questions = () => {
         },
         {
             type: "input",
-            name: "usage",
+            name: "installation",
             message: "What are the steps required to install your project?"
+        },
+        {   
+            type: "input",
+            name: "usage",
+            message: "Enter usage instructions for your project."
         },
         {
             type: "list",
@@ -77,14 +82,6 @@ const questions = () => {
     ])
    
     .then((projectData) => {
-        console.log(projectData);
-        // console.log(projectData.description);
-        // console.log(projectData.usage);
-        // console.log(projectData.license);
-        // console.log(projectData.contributing);
-        // console.log(projectData.tests);
-        // console.log(projectData.email);
-        // console.log(projectData.username);
         generateMarkdown(projectData);
         writeFile(projectData);
 })  
