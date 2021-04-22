@@ -83,7 +83,8 @@ function renderLicenseSection(projectData) {
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.`
+    along with this program.  If not, see: 
+[https://www.gnu.org/licenses/](https://www.gnu.org/licenses/)`
   }
 };
 
@@ -117,7 +118,7 @@ ${renderLicenseSection(projectData)}
 ## Questions   
   Find me on [GitHub!](https://github.com/${projectData.username}/${projectData.title})
 
-  Email me at: ${projectData.email}         
+  If you have additional questions, email me at: ${projectData.email}         
 `;
 };
 
