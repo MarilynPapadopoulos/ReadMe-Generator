@@ -48,7 +48,7 @@ function renderLicenseSection(license, name) {
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
  
-    [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
  
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
@@ -87,10 +87,8 @@ ${renderLicenseSection(projectData.license, projectData.username)}
 ## Tests
     ${projectData.tests}
 ## Questions   
-   Find me on GitHub: ${projectData.username}
-  Email me at: ${projectData.email}
-<a href=https://github.com/${projectData.username}/${projectData.title}.git>
-         
+  Find me on [GitHub!](https://github.com/${projectData.username}/${projectData.title}.git>)
+  Email me at: ${projectData.email}         
 `;
 };
 

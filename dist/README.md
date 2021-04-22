@@ -1,7 +1,7 @@
 # Title       ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) 
 
 ## Description
-descripiont
+description
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -11,19 +11,17 @@ descripiont
 * [Questions](#questions)
 
 ## Installation
-    no steps
+    none
 ## Usage
-    use it
+    none
 ## License
- Copyright 2021 marilynpap
+ Copyright 2021 username
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
-
-    [Apache](https://opensource.org/licenses/Apache-2.0
  
-    [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
  
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
@@ -32,11 +30,9 @@ descripiont
     limitations under the License.
     
 ## Contributing
-    nobody
+    
 ## Tests
-    test it
+    
 ## Questions   
-   Find me on GitHub: marilynpap
-## marilyn@volk
-<a href=https://github.com/marilynpap/Title.git>
-         
+  Find me on [GitHub!](https://github.com/username/Title.git>)
+  Email me at:          
