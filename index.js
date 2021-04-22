@@ -13,7 +13,7 @@ const questions = () => {
         {
             type: "input",
             name: "title",
-            message: "What is your project's title? (Required)",
+            message: "What is your project's title on GitHub? (Required)",
             validate: (nameInput) => {
                 if (nameInput) {
                     return true;
@@ -53,7 +53,7 @@ const questions = () => {
         {
             type: "input",
             name: "contributing",
-            message: "If you would like contributors, explain the guidelines"
+            message: "If you would like contributors, explain the guidelines:"
         },
         {
             type: "input",
@@ -63,18 +63,27 @@ const questions = () => {
         {
             type: "input",
             name: "email",
-            message: "Enter your email address"
-        },
-        {
-            type: "input",
-            name: "username",
-            message: "Enter your username (Required)",
+            message: "Enter your email address (Rquired):",
             validate: (usernameInput) => {
                 if (usernameInput) {
                     return true;
                 }
                 else {
-                    console.log("Please enter your user name");
+                    console.log("Please enter your email address:");
+                    return false;
+                }
+            }
+        },
+        {
+            type: "input",
+            name: "username",
+            message: "Enter your GitHub username (Required):",
+            validate: (usernameInput) => {
+                if (usernameInput) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter your user name:");
                     return false;
                 }
             }
