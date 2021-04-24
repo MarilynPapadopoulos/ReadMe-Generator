@@ -37,7 +37,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(projectData) {
-  console.log("name", projectData.username);
+  
   if(projectData.license == 'None'){
     return "";
   }
@@ -92,7 +92,6 @@ function renderLicenseSection(projectData) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(projectData) {
 
-  console.log(" hello from generatemarkdown", projectData);
   return `# ${projectData.title}       ${renderLicenseBadge(projectData.license)} 
 
 ## Description
@@ -116,7 +115,7 @@ ${renderLicenseSection(projectData)}
 ## Tests
     ${projectData.tests}
 ## Questions   
-  Find me on [GitHub!](https://github.com/${projectData.username}/${projectData.title})
+  Find me on [GitHub!](https://github.com/${projectData.username})
 
   If you have additional questions, email me at: ${projectData.email}         
 `;

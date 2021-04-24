@@ -1,7 +1,7 @@
-# azdfdsa       ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) 
+# ReadMe-Generator       ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) 
 
 ## Description
-adfas
+This is the description of my cool project.
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -11,11 +11,11 @@ adfas
 * [Questions](#questions)
 
 ## Installation
-    agfd
+    Here are the steps to install.
 ## Usage
-    sfghs
+    This is the usage.
 ## License
- Copyright 2021 sxdfgs
+ Copyright 2021 MarilynPapadopoulos
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -30,10 +30,10 @@ adfas
     limitations under the License.
     
 ## Contributing
-    sfg
+    Here are some contributing guidlines
 ## Tests
-    szdfh
+    Here are some tests I included since I am learning that now!
 ## Questions   
-  Find me on [GitHub!](https://github.com/sxdfgs/azdfdsa)
+  Find me on [GitHub!](https://github.com/MarilynPapadopoulos)
 
-  If you have additional questions, email me at: dfhg         
+  If you have additional questions, email me at: marilyn@mail.com         

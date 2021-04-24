@@ -111,12 +111,3 @@ const writeFile = projectData => {
 
 }
 
-
-
-// TODO: Create a function to initialize app
-//function init( projectData) {
-//
-//}
-
-// Function call to initialize app
-//init();
