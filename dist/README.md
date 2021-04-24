@@ -1,7 +1,7 @@
-# ReadMe-Generator       ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) 
+# ReadMe-Generator        
 
 ## Description
-This is the description of my cool project.
+This is an app that where the user to enters the prompted fields and then a ReadMe file is generated.  The app has options to include the project title, description, installation, usage, contributing and tests.  There is a choice of three license options which will then populate with an explaination of the license application.  The user may also chose not to enter a license. At the bottom a link the the user's GitHub is generated as well as an email link.
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -11,28 +11,13 @@ This is the description of my cool project.
 * [Questions](#questions)
 
 ## Installation
-    Here are the steps to install.
+    In order to run this app, enter node index.js in terminal.
 ## Usage
-    This is the usage.
-## License
- Copyright 2021 MarilynPapadopoulos
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
- 
-[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
- 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
     
-## Contributing
-    Here are some contributing guidlines
+[Walk through video](https://drive.google.com/file/d/1SNHK2pmWFRv_gRIn9yWoyMSbl1Qpzu0o/view)
+    
 ## Tests
-    Here are some tests I included since I am learning that now!
+    Test are coming soon!
 ## Questions   
   Find me on [GitHub!](https://github.com/MarilynPapadopoulos)
 
