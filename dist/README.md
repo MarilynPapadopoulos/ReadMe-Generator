@@ -1,7 +1,7 @@
-# azdfdsa       ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) 
+# Read Me Generator       ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg) 
 
 ## Description
-adfas
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -11,11 +11,11 @@ adfas
 * [Questions](#questions)
 
 ## Installation
-    agfd
+    Requires npm
 ## Usage
-    sfghs
+    Use the command line to enter node index.js
 ## License
- Copyright 2021 sxdfgs
+ Copyright 2021 UserName
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -30,10 +30,10 @@ adfas
     limitations under the License.
     
 ## Contributing
-    sfg
+    Follows Contributor Covenant 2.0
 ## Tests
-    szdfh
+    A list of tests and instructions
 ## Questions   
-  Find me on [GitHub!](https://github.com/sxdfgs/azdfdsa)
+  Find me on [GitHub!](https://github.com/UserName/Read Me Generator)
 
-  If you have additional questions, email me at: dfhg         
+  If you have additional questions, email me at: mail@mail.com         
