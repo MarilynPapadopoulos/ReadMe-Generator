@@ -14,8 +14,7 @@ This app requires npm.
 To run the app enter node index.js in the command line. 
 
 This video walks through the usage:
-
-[https://img.shields.io/badge/License-${license}%202.0-blue.svg](https://img.shields.io/badge/License-${license}%202.0-blue.svg)
+[https://drive.google.com/file/d/1SNHK2pmWFRv_gRIn9yWoyMSbl1Qpzu0o/view](https://drive.google.com/file/d/1SNHK2pmWFRv_gRIn9yWoyMSbl1Qpzu0o/view)
 
 
 

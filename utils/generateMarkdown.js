@@ -116,9 +116,9 @@ ${renderLicenseSection(projectData)}
 ## Tests
     ${projectData.tests}
 ## Questions   
-  Find me on [GitHub!](https://github.com/${projectData.username}/${projectData.title})
+Find me on [GitHub!](https://github.com/${projectData.username}/${projectData.title})
 
-  If you have additional questions, email me at: ${projectData.email}         
+If you have additional questions, email me at: ${projectData.email}         
 `;
 };
 
